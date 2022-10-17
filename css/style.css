@@ -51,8 +51,6 @@ a {
 /* Main */
 main{
     padding-top: 125px;
-    padding-bottom: 50px;
-
 }
 
 /* Features */
@@ -203,3 +201,80 @@ main{
                 border: #000 solid 1px;
                 border-radius: 20px;
             }
+
+/* About Us */
+.aboutus{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 600px;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+}
+
+    .aboutdescr{
+        width: 70%;
+        height: 600px;
+        display: flex;
+        border: #000 solid 1px;
+    }
+
+    .profile{
+        width: 30%;
+        height: 600px;
+        display: flex;
+        border: #000 solid 1px;
+    }
+
+/* Get Started */
+.banner3{
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .getstarted{
+        width: 10%;
+        height: 30px;
+        border: #000 solid 1px;
+        margin-top: 15px;
+    }
+
+    .pricing{
+        width: 30%;
+        height: 70px;
+        border: #000 solid 1px;
+    }
+
+    .free{
+        width: 20%;
+        height: 150px;
+        border: #000 solid 1px;
+    }
+
+    .beta{
+        width: 30%;
+        height: 80px;
+        border: #000 solid 1px;
+    }
+
+    .getstarted-button{
+        width: 20%;
+        height: 120px;
+        border: #000 solid 1px;
+    }
+
+    .copyright{
+        width: 25%;
+        height: 50px;
+        border: #000 solid 1px;
+        margin-bottom: 15px;
+    }
+
+/* Footer */
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #333333;
+}
