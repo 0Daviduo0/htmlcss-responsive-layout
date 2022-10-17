@@ -52,17 +52,15 @@ a {
 main{
     padding-top: 125px;
     padding-bottom: 50px;
-    padding-left: 20%;
-    padding-right: 20%;
-    height: 4000px;
-    color: #000;
-    display: flex;
 
 }
 
+/* Features */
     .features{
         width: 100%;
         height: 600px;
+        padding-left: 20%;
+        padding-right: 20%;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -80,5 +78,89 @@ main{
             height: 300px;
             border: #000 solid 1px;
             background-color: #b5ddff;
+            border-radius: 20px;
+        }
+
+/* Banners */
+.coloredbanner{
+    margin-top: 50px;
+    width: 100%;
+    height: 800px;
+    background-color: #9792e4;
+    display: flex;
+    justify-content: center;
+}
+
+            /* Banner1 */
+                .bannercont{
+                    width: 60%;
+                    height: 800px;
+                    border: #000 solid 1px;
+                    display: flex;
+                }
+
+                    .colsx{
+                        width: 50%;
+                        height: 800px;
+                        border: #000 solid 1px;
+                    }
+
+                    .coldx{
+                        width: 50%;
+                        height: 800px;
+                        border: #000 solid 1px;
+                    }
+
+/* Team */
+.teamcont{
+    margin-top: 50px;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .teamdescr{
+        width: 60%;
+        height: 200px;
+        border: #000 solid 1px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .testimonials{
+            width: 10%;
+            height: 30px;
+            border: #000 solid 1px;
+        }
+
+        .testimonialstitle{
+            width: 60%;
+            height: 100px;
+            border: #000 solid 1px;
+        }
+
+        .testimonialsdescr{
+            width: 100%;
+            height: 70px;
+            border: #000 solid 1px;
+        }
+
+    .teamcards{
+        width: 60%;
+        height: 800px;
+        border: #000 solid 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+        .teamperson{
+            width: 100%;
+            height: 200px;
+            background-color: #9792e4;
+            border: #000 solid 1px;
             border-radius: 20px;
         }
