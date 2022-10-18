@@ -10,6 +10,11 @@ a {
     text-decoration: none;
 }
 
+img{
+    width: 100%;
+    height: 100%;
+}
+
 /* Nav */
 .nav {
     display: flex;
@@ -22,6 +27,9 @@ a {
 }
 
     .cont-left{
+        padding-top: 10px;
+        width: 8%;
+        height: 70%;
         display: flex;
         align-items: center;
     }
@@ -118,20 +126,13 @@ main{
                             padding-right: 10px;
                         }
                    
-
             .demoscreen{
                 width: 40%;
-                padding-top: 350px;
                 /* border: #000 solid 1px; */
                 display: flex;
                 flex-direction: column-reverse;
                 
             }
-
-                .demoing{
-                    width: 100%;
-                    height: 100%;
-                }
 
         .feature-card{
             width: calc((100% - 20px) / 3);
@@ -181,7 +182,7 @@ main{
 .coloredbanner{
     margin-top: 50px;
     width: 100%;
-    height: 800px;
+    height: 700px;
     background-color: #9792e4;
     display: flex;
     justify-content: center;
@@ -190,23 +191,103 @@ main{
             /* Banner1 */
                 .bannercont{
                     width: 60%;
-                    height: 800px;
-                    border: #000 solid 1px;
+                    /* border: #000 solid 1px; */
                     display: flex;
                 }
 
                     .colsx{
                         width: 50%;
-                        height: 800px;
-                        border: #000 solid 1px;
+                        /* border: #000 solid 1px; */
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: end;
                     }
+
+                        .banner1-img{
+                            width: 70%;
+                            padding-bottom: 80px;
+                        }
+
+                        .banner1-descr{
+                            width: 70%;
+                            padding-bottom: 50px;
+                            display: flex;
+                            flex-direction: column;
+                            color: #fff;
+                        }
+
+                            .banner1-title{
+                                width: 100%;
+                                font-size: 22px;
+                                font-weight: bold;
+                                padding-bottom: 30px;
+                            }
+
+                            .banne1-text{
+                                width: 100%;
+                                font-size: 15px;
+                                font-weight: bold;
+                            }
 
                     .coldx{
                         width: 50%;
-                        height: 800px;
-                        border: #000 solid 1px;
+                        /* border: #000 solid 1px; */
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: end;
                     }
 
+                        .banner1-card{
+                            width: 60%;
+                            background-color: #fff;
+                            border-radius: 20px;
+                            margin-bottom: 40px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+
+                            .banner1-cardimg{
+                                width: 50%;
+                                padding-bottom: 30px;
+                                margin-top: 20px;
+                            }
+
+                            .banner1-carddescr{
+                                width: 70%;
+                                padding-bottom: 10px;
+                                display: flex;
+                                flex-direction: column;
+                                color: #000;
+                            }
+
+                            .banner1-cardtitle{
+                                width: 100%;
+                                font-size: 18px;
+                                font-weight: bold;
+                                padding-bottom: 10px;
+                                text-align: center;
+                            }
+
+                            .banne1-cardtext{
+                                text-align: center;
+                                margin-bottom: 10px;
+                            }
+
+                            .centerarrow{
+                                margin-top: 10px;
+                                margin-bottom: 15px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+                            }
+
+                                .card-downarrow{
+                                    background-color: #9792e4;
+                                    padding: 10px 15px;
+                                    border-radius: 50%;
+                                }
 /* Team */
 .teamcont{
     margin-top: 50px;
