@@ -66,16 +66,15 @@ main{
 
         .feature-card.big{
             width: calc(((100% - 5px) / 3) * 2);
-            height: 300px;
-            border: #000 solid 1px;
+            /* border: #000 solid 1px; */
             margin-bottom: 1%;
             display: flex;
+            overflow: hidden;
         }
 
             .demoapp{
                 width: 50%;
-                height: 250px;
-                border: #000 solid 1px;
+                /* border: #000 solid 1px; */
                 display: flex;
                 flex-direction: column;
                 margin: 3%;
@@ -96,40 +95,48 @@ main{
                 .demobutton{
                     margin-top: 20px;
                     width: 65%;
-                    height: 40px;
-                    border: #000 solid 1px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    /* border: #000 solid 1px; */
                     font-weight: bold;
                     font-size: 18px;
                     color: #fff;
                     background-color: #0084fd;
                     border-radius: 1000px;
                     display: flex;
-                    justify-content: center;
+                    justify-content: column;
+                    align-items: center;
                 }
-                    
-                    .applelogo{
-                        padding-right: 10px;
-                        padding-top: 5px;
+
+                    .buttoncont{
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
                     }
 
-                    .demotext{
-                        padding-top: 5px;
-                    }
+                        .applelogo{
+                            padding-right: 10px;
+                        }
+                   
 
             .demoscreen{
                 width: 40%;
-                height: 300px;
-                border: #000 solid 1px;
+                padding-top: 350px;
+                /* border: #000 solid 1px; */
                 display: flex;
-                /* background-image: url(../img/phone.png);
-                background-size: contain;
-                background-repeat: no-repeat; */
+                flex-direction: column-reverse;
+                
             }
+
+                .demoing{
+                    width: 100%;
+                    height: 100%;
+                }
 
         .feature-card{
             width: calc((100% - 20px) / 3);
             height: 300px;
-            border: #000 solid 1px;
+            /* border: #000 solid 1px; */
             background-color: #b5ddff;
             border-radius: 20px;
         }
@@ -143,8 +150,7 @@ main{
             .featureimg{
                 margin: 10px;
                 width: 30%;
-                height: 100px;
-                border: #000 solid 1px;
+                /* border: #000 solid 1px; */
                 font-size: 90px;
                 color: #0084fd;
                 text-align: center;
@@ -152,8 +158,7 @@ main{
 
             .featuretitle{
                 width: 50%;
-                height: 50px;
-                border: #000 solid 1px;
+                /* border: #000 solid 1px; */
                 margin-bottom: 10px;
                 font-size: 20px;
                 font-weight: bold;
@@ -164,8 +169,8 @@ main{
 
             .featuredescr{
                 width: 90%;
-                height: 100px;
-                border: #000 solid 1px;
+                margin-top: 10px;
+                /* border: #000 solid 1px; */
                 font-weight: bold;
                 font-size: 18px;
                 color: #5b6f80;
