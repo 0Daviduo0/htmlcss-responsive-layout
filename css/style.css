@@ -24,6 +24,7 @@ img{
     width: 100%;
     height: 75px;
     background-color: #0084fd;
+    z-index: 9999;
 }
 
     .cont-left{
@@ -33,6 +34,10 @@ img{
         display: flex;
         align-items: center;
     }
+
+        #logo{
+            width: 80px;
+        }
 
     .cont-right{
         display: flex;
@@ -93,6 +98,10 @@ main{
                     padding-top: 10px;
                     text-align: left;
                 }
+
+                    #phone{
+                        width: 250px;
+                    }
 
                 #demodescr{
                     width: 100%;
@@ -293,7 +302,7 @@ main{
 .teamcont{
     margin-top: 50px;
     width: 100%;
-    height: 1000px;
+    /* height: 1000px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -351,7 +360,7 @@ main{
         }
                 .teamimg{
                     width: 150px;
-                    height: 100%;
+                    height: 150px;
                     border-radius: 50%;
                     overflow: hidden;
                     /* border: #000 solid 1px; */
@@ -410,7 +419,7 @@ main{
         margin-bottom: 50px;
         width: 60%;
         /* height: 100px; */
-        border: #000 solid 1px;
+        /* border: #000 solid 1px; */
         text-align: center;
         font-size: 40px;
         font-weight: bold;
@@ -420,7 +429,7 @@ main{
     .cardsbenefits{
             width: 60%;
             /* height: 700px; */
-            border: #000 solid 1px;
+            /* border: #000 solid 1px; */
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -429,7 +438,7 @@ main{
         .rowbenefits{
             width: 100%;
             height: 400px;
-            border: #000 solid 1px;
+            /* border: #000 solid 1px; */
             display: flex;
             justify-content: space-between;
             margin-bottom: 30px;
@@ -439,7 +448,7 @@ main{
             .benefcard{
                 width: calc((100% - 60px) / 3);
                 height: 100%;
-                border: #000 solid 1px;
+                /* border: #000 solid 1px; */
                 border-radius: 20px;
                 display: flex;
                 flex-direction: column;
@@ -492,60 +501,145 @@ main{
         width: 70%;
         height: 600px;
         display: flex;
-        border: #000 solid 1px;
+        flex-direction: column;
+        /* border: #000 solid 1px; */
+        padding-left: 50px;
+        padding-top: 30px;
     }
+
+        .about-title{
+            font-size: 70px;
+            font-weight: bold;
+            color: #9792e4;
+        }
+
+        .about-descr1{
+            margin-top: 30px;
+            line-height: 30px;
+
+        }
+
+        .about-descr2{
+            margin-top: 30px;
+            line-height: 30px;
+
+        }
 
     .profile{
         width: 30%;
         height: 600px;
         display: flex;
-        border: #000 solid 1px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: #000 solid 1px; */
     }
+
+        .aboutpic{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            z-index: 500;
+        }
+
+            /* .aboutpic-quote{
+                color: #9792e4;
+                font-size: 30px;
+                position: absolute;
+                
+            } */
+
+        .quote-aboutus{
+            padding-top: 15px;
+            width: 70%;
+            font-size: 25px;
+            font-weight: bold;
+            color: #9792e4;
+        }
+
+        .linkedin{
+            margin-top: 15px;
+            margin-bottom: 30px;
+            padding: 2px;
+            width: 55%;
+            font: 8px;
+            color: #fff;
+            background-color: #9792e4;
+            border-radius: 25px;
+            text-align: center;
+        }
+
+            .linkedin-logo{
+                padding-right: 5px;
+            }
 
 /* Get Started */
 .banner3{
-    height: 600px;
+    /* height: 600px; */
     flex-direction: column;
     align-items: center;
+    color: #fff;
 }
 
     .getstarted{
-        width: 10%;
-        height: 30px;
-        border: #000 solid 1px;
-        margin-top: 15px;
+        /* width: 10%; */
+        /* height: 30px; */
+        /* border: #000 solid 1px; */
+        margin-top: 60px;
     }
 
     .pricing{
-        width: 30%;
-        height: 70px;
-        border: #000 solid 1px;
+        /* width: 30%; */
+        /* height: 70px; */
+        /* border: #000 solid 1px; */
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 20px;
     }
 
     .free{
-        width: 20%;
-        height: 150px;
-        border: #000 solid 1px;
+        /* width: 20%; */
+        /* height: 150px; */
+        /* border: #000 solid 1px; */
+        font-size: 100px;
+        font-weight: bold;
+        color: #fdc15f;
+        margin-bottom: 20px;
     }
 
     .beta{
-        width: 30%;
-        height: 80px;
-        border: #000 solid 1px;
+        width: 600px;
+        /* height: 80px; */
+        /* border: #000 solid 1px; */
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
     }
 
     .getstarted-button{
-        width: 20%;
-        height: 120px;
-        border: #000 solid 1px;
+        padding: 20px 50px;
+        color: #9792e4;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #fff;
+        border-radius: 50px;
+        /* border: #000 solid 1px; */
+        margin-bottom: 20px;
     }
 
     .copyright{
-        width: 25%;
+        width: 30%;
         height: 50px;
-        border: #000 solid 1px;
+        /* border: #000 solid 1px; */
         margin-bottom: 25px;
+        display: flex;
+        justify-content: center;
     }
+
+        .list{
+            display: flex;
+            padding-left: 20px;
+        }
 
 /* Footer */
 footer{
