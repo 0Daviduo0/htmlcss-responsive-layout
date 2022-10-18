@@ -10,6 +10,11 @@ a {
     text-decoration: none;
 }
 
+.link{
+    color:#9792e4;
+    text-decoration: underline;
+}
+
 img{
     width: 100%;
     height: 100%;
@@ -644,7 +649,6 @@ main{
 /* Footer */
 footer{
     width: 100%;
-    height: 250px;
     background-color: #333333;
     display: flex;
     justify-content: center;
@@ -653,16 +657,18 @@ footer{
     .footercont{
         margin-top: 30px;
         width: 30%;
-        height: 180px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
-        border: #000 solid 1px;
+        /* border: #000 solid 1px; */
+        margin-bottom: 30px;
     }
 
         .footerdescr{
-            width: 100%;
+            width: 70%;
             height: 60px;
-            border: #000 solid 1px;
+            /* border: #000 solid 1px; */
+            text-align: center;
+            color: #fff;
+            margin-top: 30px;
         }
