@@ -518,8 +518,9 @@ main{
         display: flex;
         flex-direction: column;
         /* border: #000 solid 1px; */
-        padding-left: 50px;
+        padding-left: 10px;
         padding-top: 30px;
+        padding-right: 30px;
     }
 
         .about-title{
@@ -547,6 +548,7 @@ main{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-right: 10px;
         /* border: #000 solid 1px; */
     }
 
