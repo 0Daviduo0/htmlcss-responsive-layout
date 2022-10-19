@@ -65,6 +65,10 @@ img{
             margin-right: 0;
         }
 
+        .bars-mobile{
+            display: none;
+        }
+
 
 /* Main */
 main{
@@ -104,7 +108,8 @@ main{
                 }
 
                     #phone{
-                        width: 250px;
+                        max-width: 250px;
+                        max-height: 400px;
                     }
 
                 #demodescr{
@@ -165,7 +170,7 @@ main{
 
             .featureimg{
                 margin: 10px;
-                width: 30%;
+                width: auto;
                 /* border: #000 solid 1px; */
                 font-size: 90px;
                 color: #0084fd;
@@ -336,6 +341,7 @@ main{
             font-size: 45px;
             font-weight: bold;
             padding-bottom: 25px;
+            text-align: center;
         }
 
         .testimonialsdescr{
@@ -448,6 +454,7 @@ main{
             /* border: #000 solid 1px; */
             display: flex;
             justify-content: space-between;
+            flex-wrap: wrap;
             margin-bottom: 30px;
             
         }
@@ -462,6 +469,7 @@ main{
                 background-color: #fff;
                 color: #9792e4;
                 padding: 20px;
+                margin-bottom: 20px;
 
             }
 
@@ -635,7 +643,7 @@ main{
     }
 
     .copyright{
-        width: 30%;
+        width: 100%;
         height: 50px;
         /* border: #000 solid 1px; */
         margin-bottom: 25px;
@@ -658,7 +666,7 @@ footer{
 
     .footercont{
         margin-top: 30px;
-        width: 30%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -673,4 +681,126 @@ footer{
             text-align: center;
             color: #fff;
             margin-top: 30px;
+        }
+
+
+        /* Breakpoints */
+        @media screen and (max-width: 1149px ){
+            .nav-voices{
+                display: none;
+            }
+
+            .bars-mobile{
+                display: block;
+            }
+
+            .linkedin{
+                font-size: 10px;
+                padding: 3px;
+            }
+
+            #phone{
+                max-width: 200px;
+                max-height: 200px;
+            }
+        }
+
+
+        @media screen and (max-width: 1000px ){
+            .nav{
+                padding: 0 5%;
+            }
+
+            .features{
+                padding-left: 5%;
+                padding-right: 5%;
+            }
+
+            .bannercont{
+                width: 90%;
+                padding-left: 10%;
+                padding-right: 10%;
+            }
+
+            .banner1-card{
+                width: 100%;
+            }
+
+            .teamdescr{
+                width: 90%;
+            }
+
+            .teamcards{
+                width: 90%;
+            }
+
+            .cardsbenefits{
+                width: 90%;
+            }
+
+            .aboutus{
+                padding-left: 5%;
+                padding-right: 5%;
+            }
+        }
+
+
+        @media screen and (max-width: 868px ){
+            
+            .benefcard{
+                width: calc((100% - 20px) / 3);
+                margin-bottom: 20px;
+            }
+        }
+
+
+        @media screen and (max-width: 768px ){
+            .benefcard{
+                width: calc((100% - 20px) / 2);
+                margin-bottom: 20px;
+            }
+
+            .bannercont{
+                width: 90%;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .colsx{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .banner1-img{
+                width: 70%;
+                padding-bottom: 80px;
+                margin-top: 30px;
+            }
+
+            .banner1-descr{
+                width: 90%;
+                padding-bottom: 50px;
+                display: flex;
+                flex-direction: column;
+                color: #fff;
+            }
+
+            .coldx{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+
+            .banner1-card{
+                width: 100%;
+                background-color: #fff;
+                border-radius: 20px;
+                margin-bottom: 40px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
         }
